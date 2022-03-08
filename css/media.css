@@ -1,0 +1,1189 @@
+/* @media (max-width:) */
+
+.nav-item {
+    width: auto !important;
+}
+
+.nav-link {
+    padding: 20px 30px;
+}
+
+@media (max-width: 768px) {
+    .contact_two {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 1154px) {
+    .allert_1::before {
+        left: 560px!important;
+    }
+}
+
+@media (max-width: 1144px) {
+    .allert_1::before {
+        left: 550px!important;
+    }
+}
+
+@media (max-width: 1134px) {
+    .allert_1::before {
+        left: 540px!important;
+    }
+}
+
+@media (max-width: 1124px) {
+    .allert_1::before {
+        left: 530px!important;
+    }
+}
+
+@media (max-width: 1111px) {
+    .allert_1::before {
+        left: 510px!important;
+    }
+}
+
+@media (max-width: 1080px) {
+    .allert_1::before {
+        left: 480px!important;
+    }
+}
+
+@media (max-width: 1070px) {
+    .allert_1::before {
+        left: 470px!important;
+    }
+}
+
+@media (max-width: 1060px) {
+    .allert_1::before {
+        left: 460px!important;
+    }
+}
+
+@media (max-width: 1050px) {
+    .allert_1::before {
+        left: 450px!important;
+    }
+}
+
+@media (max-width: 1040px) {
+    .allert_1::before {
+        left: 440px!important;
+    }
+}
+
+@media (max-width: 1030px) {
+    .allert_1::before {
+        left: 430px!important;
+    }
+}
+
+@media (max-width: 1020px) {
+    .allert_1::before {
+        left: 420px!important;
+    }
+}
+
+@media (max-width: 1010px) {
+    .allert_1::before {
+        left: 410px!important;
+    }
+}
+
+@media (max-width: 1000px) {
+    .allert_1::before {
+        left: 400px!important;
+    }
+}
+
+@media (max-width: 947px) {
+    .allert_1::before {
+        left: 390px!important;
+    }
+}
+
+@media (max-width: 937px) {
+    .allert_1::before {
+        left: 380px!important;
+    }
+}
+
+@media (max-width: 927px) {
+    .allert_1::before {
+        left: 370px!important;
+    }
+}
+
+@media (max-width: 917px) {
+    .allert_1::before {
+        left: 360px!important;
+    }
+}
+
+@media (max-width: 900px) {
+    .allert_1::before {
+        left: 350px!important;
+    }
+}
+
+@media (max-width: 890px) {
+    .allert_1::before {
+        left: 330px!important;
+    }
+}
+
+@media (max-width: 880px) {
+    .allert_1::before {
+        left: 310px!important;
+    }
+}
+
+@media (max-width: 860px) {
+    .allert_1::before {
+        left: 290px!important;
+    }
+}
+
+@media (max-width: 840px) {
+    .allert_1::before {
+        left: 270px!important;
+    }
+}
+
+@media (max-width: 820px) {
+    .allert_1::before {
+        left: 250px!important;
+    }
+}
+
+@media (max-width: 800px) {
+    .allert_1::before {
+        left: 230px!important;
+    }
+}
+
+@media (max-width: 780px) {
+    .allert_1::before {
+        left: 210px!important;
+    }
+}
+
+@media (max-width: 760px) {
+    .allert_1::before {
+        left: 190px!important;
+    }
+}
+
+@media (max-width: 740px) {
+    .allert_1::before {
+        left: 170px!important;
+    }
+}
+
+@media (max-width: 720px) {
+    .allert_1::before {
+        left: 150px!important;
+    }
+}
+
+@media (max-width: 700px) {
+    .allert_1::before {
+        left: 130px!important;
+    }
+}
+
+@media (max-width: 680px) {
+    .allert_1::before {
+        left: 110px!important;
+    }
+}
+
+@media (max-width: 660px) {
+    .allert_1::before {
+        left: 90px!important;
+    }
+}
+
+@media (max-width: 640px) {
+    .allert_1::before {
+        left: 70px!important;
+    }
+}
+
+
+}
+@media (max-width: 620px) {
+    .allert_1::before {
+        left: 50px!important;
+    }
+}
+@media (max-width: 600px) {
+    .allert_1::before {
+        left: 30px!important;
+    }
+}
+@media (max-width: 580px) {
+    .allert_1::before {
+        left: 10px!important;
+    }
+}
+@media (max-width: 560px) {
+    .allert_1::before {
+        left: -10px!important;
+    }
+}
+@media (max-width: 540px) {
+    .allert_1::before {
+        left: -30px!important;
+    }
+}
+@media (max-width: 520px) {
+    .allert_1::before {
+        left: -50px!important;
+    }
+}
+@media (max-width: 500px) {
+    .allert_1::before {
+        left: -70px!important;
+    }
+}
+@media (max-width: 480px) {
+    .allert_1::before {
+        left: -90px!important;
+    }
+}
+@media (max-width: 460px) {
+    .allert_1::before {
+        left: -110px!important;
+    }
+}
+@media (max-width: 440px) {
+    .allert_1::before {
+        left: -130px!important;
+    }
+}
+@media (max-width: 420px) {
+    .allert_1::before {
+        left: -150px!important;
+    }
+}
+@media (max-width: 400px) {
+    .allert_1::before {
+        left: -170px!important;
+    }
+}
+@media (max-width: 380px) {
+    .allert_1::before {
+        left: -190px!important;
+    }
+}
+@media (max-width: 360px) {
+    .allert_1::before {
+        left: -210px!important;
+    }
+}
+@media (max-width: 340px) {
+    .allert_1::before {
+        left: -230px!important;
+    }
+}
+@media (max-width: 320px) {
+    .allert_1::before {
+        left: -245px!important;
+    }
+}
+@media (max-width: 1164px) {
+    .allert_1::before {
+        z-index: 99;
+        left: 570px;
+    }
+    
+    .kupit_footer_onebox {
+        width: 100%;
+        padding-bottom: 30px;
+    }
+    
+    .gosBox {
+        display: block;
+    }
+    
+    .selectize-input {
+        width: 100%!important;
+    }
+    
+    element.style {
+        text-transform: uppercase;
+    }
+    
+    .gosBox_input_povtor {
+        width: 100%;
+    }
+    
+    .gosBox_input {
+        color: #000000 !important;
+    }
+    
+    .dataBox_input {
+        width: 100%;
+    }
+    
+    .gosBox_input {
+        width: 100%;
+    }
+    
+    .form_dnev {
+        padding-left: 13px;
+    }
+    
+    .gosBox_povtor {
+        margin-top: 25px;
+    }
+    
+    .form_dnevTwo {
+        padding-left: 13px;
+    }
+    
+    .form_godovaya {
+        padding-left: 13px;
+    }
+    
+    .kupit_footer_twobox {
+        margin-top: 30px;
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    
+    .nav-item {
+        width: 50% !important;
+        border-bottom: 1px solid #3D5575;
+    }
+    
+    .nav-item:nth-child(2) {
+        border-right: 1px solid #3D5575;
+    }
+    
+    .header {
+        height: 231px;
+    }
+    
+    .nav-tabs .nav-link.active,
+    .nav-tabs .nav-item.show .nav-link {
+        border-right: none;
+        border-left: none;
+        border-top: 1px solid #3D5575;
+        border-radius: 0;
+    }
+    
+    .nav-tabs .nav-item:nth-child(1) .nav-link.active,
+    .nav-tabs .nav-item:nth-child(2) .nav-link.active {
+        border-top: none;
+    }
+}
+@media (max-width: 794px) {
+    .header_tabs {
+        display: none;
+    }
+    
+    .header {
+        height: 122px;
+    }
+    
+    .navbar_lenguage,
+    .logo_title,
+    .liner_logo_title {
+        display: none;
+    }
+    
+    #menu .header_tabs {
+        display: block;
+    }
+    
+    #menu .navbar_lenguage {
+        display: flex;
+        padding: 10px 0 10px 0;
+    }
+    
+    .navbar_logo {
+        width: 30%;
+    }
+    
+    .burger_menu {
+        display: block;
+        margin-left: auto;
+    }
+    
+    #menu .nav-item {
+        border: 1px solid #3D5575;
+    }
+    
+    #menu .nav-link {
+        padding: 20px 10px;
+    }
+    
+    .select {
+        margin-bottom: 10px;
+    }
+}
+@media (min-width: 795px) {
+    .burger_menu {
+        display: none;
+    }
+}
+.header {
+    position: relative;
+}
+#menu {
+    display: none;
+    position: absolute;
+    bottom: -174px;
+    right: 0;
+    background-color: #fff;
+    z-index: 999;
+    transition: all 0.8s linear;
+}
+.opacitys {
+    display: block !important;
+}
+@media (max-width: 1200px) {
+    .about {
+        padding: 0;
+    }
+}
+@media (max-width: 950px) {
+    .foot_imgmedia {
+        display: block;
+    }
+    
+    .foot_img {
+        display: none;
+    }
+    
+    .foot_title {
+        display: none;
+    }
+    
+    .foot_titlemedia {
+        display: block;
+        font-family: Roboto;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0em;
+    }
+    
+    .foot {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .foot_imgmedia {
+        margin: 0 auto;
+    }
+    
+    .footThree {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .booo {
+        width: 275px;
+        margin-bottom: 25px;
+    }
+    
+    .linear_media {
+        display: block;
+    }
+    
+    .footTwo {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .boo {}
+    
+    .liner_foot {
+        display: none;
+    }
+}
+@media (max-width: 795px) {
+    #menu .navbar_lenguage {
+        justify-content: center;
+    }
+    
+    .select__list {
+        height: 180px;
+    }
+    
+    .about_pictures_img {
+        margin-top: 20px;
+    }
+    
+    .besh {
+        margin-top: 20px;
+    }
+}
+@media (max-width: 500px) {
+    .karta_title {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 35px;
+        color: #263238;
+    }
+    
+    .chexiya {
+        padding: 10px;
+    }
+}
+@media (max-width:567px) {
+    .uch {
+        margin-top: 20px;
+    }
+    
+    .knop_uvelichet {
+        top: 10px;
+        left: 10px;
+    }
+    
+    .chexiya_title {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 35px;
+        text-align: center;
+        color: #263238;
+    }
+    
+    .knop_uvelichet_title {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        color: #263238;
+    }
+}
+@media (max-width:320px) {
+    .tooltwo {
+        width: 277px!important;
+    }
+    
+    .bigtoolTwo {
+        top: -98px!important;
+    }
+    
+    .tooltwo::before {
+        right: 3px!important;
+    }
+    
+    .uch {
+        margin-top: 0px!important;
+        height: 88px;
+        margin-left: 0!important;
+        width: 104px;
+    }
+    
+    .bir {
+        height: 88px;
+        margin-left: 0!important;
+        width: 115px;
+    }
+    
+    .iki {
+        height: 88px;
+        width: 157px;
+        margin-left: 0px;
+        margin-left: 0!important;
+    }
+    
+    .turt {
+        height: 88px;
+        width: 156px;
+        margin-top: 0px!important;
+        margin-left: 0!important;
+    }
+    
+    .besh {
+        height: 88px;
+        margin-top: 0px!important;
+        margin-left: 0!important;
+        width: 155px;
+    }
+    
+    .box_form_chekbox_box {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .soglasiya_chekbox {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .soglasiya_title {
+        font-size: 14px;
+    }
+}
+@media (max-width:412px) {
+    .card_header .titlee {
+        max-width: 235px!important;
+    }
+    
+    .card_header .accicon {
+        top: 30px!important;
+    }
+    
+    .cardt {
+        padding: 15px 10px 10px 10px;
+    }
+    
+    .card_header .acciconlast {
+        font-size: 30px;
+        position: absolute;
+        right: 0;
+        top: 30px;
+    }
+}
+@media (max-width:640px) {
+    .day_boxOne:last-child {
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+    
+    .day_boxOne:nth-child(3) {
+        margin-top: 50px;
+    }
+    
+    .day_boxOne:nth-child(2) {
+        margin-left: 50px;
+    }
+}
+@media (max-width:464px) {
+    .tool {
+        width: 277px;
+    }
+    
+    .tool_title {
+        font-size: 10px;
+    }
+    
+    .tool::before {
+        right: 10px!important;
+    }
+    
+    .tooltwo {
+        width: 313px;
+    }
+    
+    .bigtoolTwo {
+        top: -90px;
+    }
+    
+    .tooltwo::before {
+        right: 3px!important;
+    }
+    
+    .tooltwo_title {
+        font-size: 10px;
+    }
+    
+    .uch {
+        margin-top: 10px!important;
+        height: 88px;
+        width: 104px;
+    }
+    
+    .card_header .titlee {
+        width: 308px!important;
+    }
+    
+    .card_header .acciconTwo {
+        font-size: 30px;
+        position: absolute;
+        right: 0;
+        top: 25px;
+    }
+    
+    .uchastok_title,
+    .dlina {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 23px;
+        /* Main */
+        color: #263238;
+    }
+    
+    .chexiya {
+        padding: 10px;
+    }
+    
+    .chexiya_title {
+        margin-left: 3px;
+    }
+    
+    .vinetka_info {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 18px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    
+    .shtraf_title {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 35px;
+        text-align: center;
+        color: #263238;
+    }
+    
+    .shtraf {
+        padding: 10px;
+    }
+    
+    .shtraf_liner {
+        width: 90%;
+    }
+    
+    .bir {
+        height: 88px;
+        margin-left: 0!important;
+        width: 115px;
+    }
+    
+    .iki {
+        height: 88px;
+        width: 157px;
+        margin-left: 10px;
+    }
+    
+    .turt {
+        height: 88px;
+        width: 156px;
+        margin-left: 10px;
+        margin-top: 10px!important;
+    }
+    
+    .besh {
+        height: 88px;
+        margin-top: 10px!important;
+        width: 155px;
+    }
+}
+@media (max-width:787px) {
+    .turt {
+        margin-top: 20px;
+    }
+}
+@media (max-width: 1005px) {
+    .besh {
+        margin-top: 20px;
+    }
+}
+@media (max-width: 689px) {
+    .bigtool {
+        left: 0;
+    }
+    
+    .tool::before {
+        left: auto;
+        right: 132px;
+    }
+}
+@media (max-width: 969px) {
+    .box_inputOne label {
+        width: 100%;
+    }
+    
+    .day_boxOne:last-child {
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+    
+    .day_boxOne:nth-child(3) {}
+    
+    .day_boxOne:nth-child(2) {}
+    
+    .box_inputTwo label {
+        width: 100%;
+        margin-top: 25px;
+    }
+    
+    .box_inputOne {
+        width: 100%;
+    }
+    
+    .box_inputTwo {
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .email_povinput {
+        width: 100%;
+    }
+    
+    .email_input {
+        width: 100%;
+    }
+}
+@media (max-width: 991px) {
+    .form_dnev {
+        margin-top: 20px;
+    }
+    
+    .allert_2s::before {
+        right: 15px;
+    }
+    
+    .allert_2ss::before {
+        right: 15px;
+    }
+    
+    .allerts_2s::before {
+        right: 15px;
+        top: 20px;
+    }
+    
+    .allerts_2ss::before {
+        right: 15px;
+        top: 20px;
+    }
+    
+    .form_dnevTwo {
+        margin-top: 20px;
+    }
+    
+    .box_form {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    
+    .selectTwo {
+        width: 100%!important;
+    }
+    
+    .gosBox_input {
+        width: 100%!important;
+    }
+    
+    .gosBox_input_povtor {
+        width: 100%;
+    }
+    
+    .dataBox_input {
+        width: 100%!important;
+    }
+    
+    .form_contactBox {
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 495px) {
+    .email_p {
+        bottom: -35px;
+    }
+}
+@media (max-width: 970px) {
+    .card_header .titlee {
+        max-width: 650px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+        color: #263238;
+    }
+    
+    .card_header .acciconthree {
+        font-size: 30px;
+        position: absolute;
+        right: 0;
+        top: 14px;
+    }
+    
+    .card_header .accicon {
+        font-size: 30px;
+        position: absolute;
+        right: 0;
+        top: 14px;
+    }
+}
+@media (max-width: 710px) {
+    .bigtoolTwo {
+        left: 0;
+    }
+    
+    .tooltwo::before {
+        right: 90px;
+        left: auto;
+    }
+    
+    #menu .nav-item {
+        width: 80% !important;
+    }
+    
+    .chexiya {
+        padding: 10px;
+    }
+    
+    .karta_box {
+        height: 100%;
+        padding: 10px;
+    }
+    
+    .body_header {
+        padding-bottom: 50px;
+    }
+    
+    .karta_box_img {
+        height: 100%;
+    }
+    
+    #menu {
+        bottom: -326px;
+        padding: 20px 0;
+    }
+    
+    .select__list {
+        height: 160px;
+    }
+    
+    #menu .nav-tabs {
+        border: 0;
+        justify-content: center;
+    }
+    
+    #menu .nav-item {
+        border-bottom: 1px solid #3D5575;
+        border-left: 0;
+        border-right: 0;
+    }
+    
+    #menu .navbar_lenguage {
+        justify-content: center;
+    }
+    
+    #menu .nav-tabs .nav-link.active,
+    #menu .nav-tabs .nav-item.show .nav-link {
+        border-top: 0;
+    }
+}
+@media (max-width: 586px) {
+    .box_form_title {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 30px;
+        color: #263238;
+    }
+    
+    .box_form_contact_title {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 30px;
+        /* Main */
+        color: #263238;
+    }
+    
+    .box_form_contact_linear {
+        width: 280px;
+    }
+    
+    .form_infoOplata_linear {
+        width: 280px;
+    }
+    
+    .card_header .titlee {
+        width: 428px;
+    }
+    
+    .kupit_header_title {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 33px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    
+    .box_form_title {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 23px;
+        line-height: 30px;
+        color: #263238;
+    }
+    
+    .kupit_body_title {
+        margin-bottom: 10px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        /* Main */
+        color: #263238;
+    }
+    
+    .kupit_body {
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+    
+    .yoqal {
+        display: none;
+    }
+    
+    .vopros_body_title {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 33px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    
+    .paydo {
+        display: block;
+        margin-left: -15px;
+    }
+    
+    .adress_info {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 18px;
+        color: #263238;
+        margin-bottom: 30px;
+    }
+    
+    .form_oplata_title {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 30px;
+        color: #263238;
+    }
+    
+    .oplata_bank {
+        margin-bottom: 30px;
+    }
+    
+    .form_infoOplata_title {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 30px;
+        color: #263238;
+    }
+    
+    .preduprejdeniya_box {
+        padding: 10px;
+    }
+    
+    .form_infoOplata_box {
+        padding: 10px 20px 24px 10px;
+    }
+    
+    .preduprejdeniya_box_img {
+        display: none;
+    }
+    
+    .preduprejdeniya_box_title {
+        margin: 0;
+    }
+    
+    .box_form_chekbox_box,
+    .soglasiya_chekbox {
+        width: 60px;
+    }
+    
+    .pereyti_btn {
+        width: 280px;
+        height: 50px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 23px;
+    }
+}
+@media (max-width: 532px) {
+    .card_header .titlee {
+        width: 368px;
+    }
+}
+@media (max-width: 458px) {
+    #menu .nav-item {
+        width: 100% !important;
+    }
+    
+    .day_boxOne:last-child {
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+    
+    .day_boxOne:nth-child(3) {
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+    
+    .day_boxOne:nth-child(2) {
+        margin-left: 0px;
+    }
+    
+    .box_form_linear {
+        width: 270px;
+        height: 4px;
+    }
+    
+    .box_form_contact_linear {
+        width: 270px;
+    }
+    
+    #menu .nav-tabs .nav-link {
+        font-size: 15px;
+    }
+    
+    .xodov {
+        padding: 15px 10px;
+    }
+    
+    .xodovBox_title {
+        margin-left: 10px;
+        max-width: 86px;
+    }
+    
+    .kupitNumber_box_img {
+        margin-top: -20px;
+    }
+    
+    .form_infoOplata_linear {
+        width: 270px;
+    }
+}

@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" href="assets/images/logo.ico">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Czesh</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css" />
+</head>
+
+<body>
+    <div id="body" class="wrapper">
+        <section class="header">
+            <div class="container">
+                <div class="header_navbar">
+                    <div class="navbar_logo">
+                        <a href="#" class="navbar_logo_img">
+                            <img src="assets/icons/logo.png" alt="404">
+                        </a>
+                        <div class="navbar_logo_title">
+                            <p class="logo_title">Платные автомагистрали Чешской республики</p>
+                            <div class="liner_logo_title"></div>
+                            <p class="logo_title_info">Электронная дорожная виньетка</p>
+                        </div>
+                    </div>
+                    <!-- new   -->
+                    <div class="burger_menu" onclick="burgerMenu()">
+                        <img src="assets/icons/menu.svg" alt="404">
+                    </div>
+                    <div id="menu">
+                        <div class="container">
+                            <div class="navbar_lenguage">
+                                <p class="navbar_lenguage_title">Язык:</p>
+                                <div class="select">
+
+                                    <input class="select__input" type="hidden" name="">
+                                    <div class="select__head">Выберите</div>
+                                    <ul class="select__list" style="display: none;">
+                                        <li class="select__item">Polski</li>
+                                        <li class="select__item">Deutsch </li>
+                                        <li class="select__item">český</li>
+                                        <li class="select__item">română</li>
+                                        <li class="select__item">English</li>
+                                        <li class="select__item">Polski</li>
+                                        <li class="select__item">Deutsch </li>
+                                        <li class="select__item">český</li>
+                                        <li class="select__item">română</li>
+                                        <li class="select__item">English</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="header_tabs">
+                                <ul class="nav nav-tabs">
+                                    <li class="nav-item">
+                                        <a class="nav-link active " href="#">Электронная дорожная
+                                            виньетка</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="where.html">Где действует виньетка</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="buy.html">Как купить виньетку</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="que.html">Вопрос - Ответ</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- new end  -->
+                    <div class="navbar_lenguage">
+                        <p class="navbar_lenguage_title">Язык:</p>
+                        <div class="select">
+                            <input class="select__input" type="hidden" name="">
+                            <div class="select__head">Выберите</div>
+                            <ul class="select__list" style="display: none;">
+                                <li class="select__item">Polski</li>
+                                <li class="select__item">Deutsch </li>
+                                <li class="select__item">český</li>
+                                <li class="select__item">română</li>
+                                <li class="select__item">English</li>
+                                <li class="select__item">Polski</li>
+                                <li class="select__item">Deutsch </li>
+                                <li class="select__item">český</li>
+                                <li class="select__item">română</li>
+                                <li class="select__item">English</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="liner_header"></div>
+            <div class="container">
+                <div class="header_tabs">
+                    <ul class="nav ">
+                        <li class="nav-item">
+                            <a class="nav-link active " href="#">Электронная дорожная виньетка</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="where.html">Где действует виньетка</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="buy.html">Как купить виньетку</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="que.html">Вопрос - Ответ</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="body">
+            <section class="body_header">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="karta" id="karta">
+                                <h1 class="karta_title">Карта платных дорог 2021</h1>
+                                <div class="karta_box">
+                                    <button type="button" data-toggle="modal" data-target="#myModal" class="btn knop_uvelichet"><img class="knop_uvelichet_img"
+                                            src="assets/icons/lupa.svg" alt="404"> <span
+                                            class="knop_uvelichet_title">Увеличить</span></button>
+                                    <div class="modal" id="myModal">
+                                        <button type="button" class="close control" data-dismiss="modal">
+                                            <p>&times;</p>
+                                        </button>
+                                        <div class="modals">
+                                            <img class='zoom' src='assets/images/dorogi.png' alt='Daisy!' />
+                                        </div>
+                                    </div>
+                                    <img src="assets/images/лфкеф.png" class="karta_box_img" alt="404">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="body_body">
+                <img src="assets/icons/backolmabir.png" class="body_body_imgOne" alt="404">
+                <img src="assets/icons/backolmaiki.png" class="body_body_imgTwo" alt="404">
+                <div class="container">
+                    <div class="day_bigBox">
+                        <script>
+                            function tarif(el) {
+                                if (el == 1) {
+                                    let sena1 = 15;
+                                    let day1 = 10;
+                                    document.location = "forma.html?price=" + sena1 + "?day=" + day1 + "?";
+                                } else if (el == 2) {
+                                    let sena2 = 25;
+                                    let day2 = 30;
+                                    document.location = "forma.html?price=" + sena2 + "?day=" + day2 + "?";
+                                } else if (el == 3) {
+                                    let sena3 = 45;
+                                    let day3 = 1;
+                                    document.location = "forma.html?price=" + sena3 + "?day=" + day3 + "?";
+                                }
+
+                            }
+                        </script>
+                        <a class="day_boxOne" onclick="tarif(1)">
+                            <p class="boxOne_title" id="dayn">10 дней</p>
+                            <div class="boxOne_money">
+                                <p class="money_yevro">€</p>
+                                <p class="money_title">15.99</p>
+                            </div>
+                            <p class="boxOne_info">Стандартная цена</p>
+                            <div class="liner_boxOne"></div>
+                            <div class="green_money">
+                                <p class="green_money_yevro">€</p>
+                                <p class="green_money_title">15.99</p>
+                            </div>
+                            <div class="eko">
+                                <img src="assets/icons/barg.svg" alt="404" class="eko_img">
+                                <p class="eko_title">Эко цена</p>
+                            </div>
+                            <button type="button" class="kupit">
+                                <p class="kupit_title">Купить</p>
+                            </button>
+                        </a>
+                        <a class="day_boxOne" onclick="tarif(2)">
+                            <p class="boxOne_title">30 дней</p>
+                            <div class="boxOne_money">
+                                <p class="money_yevro">€</p>
+                                <p class="money_title">25.99</p>
+                            </div>
+                            <p class="boxOne_info">Стандартная цена</p>
+                            <div class="liner_boxOne"></div>
+                            <div class="green_money">
+                                <p class="green_money_yevro">€</p>
+                                <p class="green_money_title">25.99</p>
+                            </div>
+                            <div class="eko">
+                                <img src="assets/icons/barg.svg" alt="404" class="eko_img">
+                                <p class="eko_title">Эко цена</p>
+                            </div>
+                            <button type="button" class="kupit">
+                                <p class="kupit_title">Купить</p>
+                            </button>
+                        </a>
+                        <a class="day_boxOne" onclick="tarif(3)">
+                            <p class="boxOne_title">1 год</p>
+                            <div class="boxOne_money">
+                                <p class="money_yevro">€</p>
+                                <p class="money_title">45.99</p>
+                            </div>
+                            <p class="boxOne_info">Стандартная цена</p>
+                            <div class="liner_boxOne"></div>
+                            <div class="green_money">
+                                <p class="green_money_yevro">€</p>
+                                <p class="green_money_title">30.99</p>
+                            </div>
+                            <div class="eko">
+                                <img src="assets/icons/barg.svg" alt="404" class="eko_img">
+                                <p class="eko_title">Эко цена</p>
+                            </div>
+                            <button type="button" class="kupit">
+                                <p class="kupit_title">Купить</p>
+                            </button>
+                        </a>
+                    </div>
+                    <!-- <div class="day_bigBoxMedia">
+                        <div class="day_boxOneMedia" onclick="tarif(1)">
+                            <img src="assets/icons/yul.png" class="day_boxOneMedia_img" alt="404">
+                            <p class="boxOne_titleMedia">10 дней</p>
+                            <div class="days">
+                                <div class="days_box">
+                                    <h1 class="days_box_title">15€</h1>
+                                    <p class="days_box_info">Стандартная цена</p>
+                                </div>
+                                <div class="liner_days"></div>
+                                <div class="days_boxTwo">
+                                    <h1 class="days_boxTwo_title">10€</h1>
+                                    <div class="eko_days">
+                                        <img src="assets/icons/barg.svg" alt="404" class="ekodays_img">
+                                        <p class="ekodays_title">Эко цена</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="kupit">
+                                <p class="kupit_title">Купить</p>
+                            </div>
+                        </div>
+                        <div class="day_boxOneMedia" onclick="tarif(2)">
+                            <img src="assets/icons/yul.png" class="day_boxOneMedia_img" alt="404">
+                            <p class="boxOne_titleMediablue">30 дней</p>
+                            <div class="days">
+                                <div class="days_box">
+                                    <h1 class="days_box_title">25€</h1>
+                                    <p class="days_box_info">Стандартная цена</p>
+                                </div>
+                                <div class="liner_days"></div>
+                                <div class="days_boxTwo">
+                                    <h1 class="days_boxTwo_title">20€</h1>
+                                    <div class="eko_days">
+                                        <img src="assets/icons/barg.svg" alt="404" class="ekodays_img">
+                                        <p class="ekodays_title">Эко цена</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="kupit">
+                                <p class="kupit_title">Купить</p>
+                            </div>
+                        </div>
+                        <div class="day_boxOneMedia" onclick="tarif(3)">
+                            <img src="assets/icons/yul.png" class="day_boxOneMedia_img" alt="404">
+                            <p class="boxOne_titleMediadarkblue">1 год</p>
+                            <div class="days">
+                                <div class="days_box">
+                                    <h1 class="days_box_title">45€</h1>
+                                    <p class="days_box_info">Стандартная цена</p>
+                                </div>
+                                <div class="liner_days"></div>
+                                <div class="days_boxTwo">
+                                    <h1 class="days_boxTwo_title">30€</h1>
+                                    <div class="eko_days">
+                                        <img src="assets/icons/barg.svg" alt="404" class="ekodays_img">
+                                        <p class="ekodays_title">Эко цена</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="kupit">
+                                <p class="kupit_title">Купить</p>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </section>
+            <section class="body_footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12">
+                            <div class="about">
+                                <p class="about_info">С 1.01.2021 если вы хотите пользоваться скоростными автомагистралями в Чешской Республике, вам необходимо преобрести электронную дорожную виньетку. Поэтому Вам не потребуется покупать и прикреплять соответствующую наклейку
+                                    на стекло, Вы можете легко зарегистрировать номерной знак транспортного средства в Интернете. <br> <br> Служба cz-vignette.cz выполнит регистрацию вашего номерного знака для Вас. Процедура регистрации номерного знака
+                                    транспортного средства занимает всего несколько минут. Мы как независимый поставщик услуг немедленно зарегистрируем ваш номерной знак в системе оплаты дорожного сбора в Чешской Республике.
+                                </p>
+                                <p class="about_infoTwo">
+                                    Для этого достаточно сделать онлайн-регистрацию. Если Вам необходимо, электронные виньетки вступают в силу немедленно!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-12">
+                            <div class="about_pictures">
+                                <img src="assets/images/radar.png" alt="404" class="about_pictures_img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="body_footerTwo">
+                <img src="assets/images/one.png" class="one" alt="404">
+                <img src="assets/images/two.png" class="two" alt="404">
+                <div class="container">
+                    <div class="vinetka">
+                        <h1 class="vinetka_title">Кто обязан купить электронную дорожную виньетку?</h1>
+                        <div class="cars">
+                            <img src="assets/icons/bir.png" class="bir" alt="404">
+                            <img src="assets/icons/iki.png" class="iki" alt="404">
+                            <img src="assets/icons/uch.png" class="uch" alt="404">
+                            <img src="assets/icons/turt.png" class="turt" alt="404">
+                            <img src="assets/icons/besh.png" class="besh" alt="404">
+                        </div>
+                        <p class="vinetka_info">
+                            Обязанность приобрести электронную дорожную виньетку будет действовать для автотранспортных средств как минимум с четырьмя колесами, максимальная допустимая масса которых составляет 3,5 тонн. Данная обязанность не распространяется на прицепные средства
+                            и мотоциклы. Однако с 1 января 2021 г. увеличится и перечень автомобилей, освобожденных от дорожного сбора.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section class="body_footerThree">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="shtraf">
+                                <h1 class="shtraf_title">Контроль и штрафы</h1>
+                                <div class="shtraf_liner"></div>
+                                <p class="shtraf_info">По ГРНЗ автомобиля контрольные органы Полиции Чешской Республики и Таможенного управления Чешской Республики узнают, имеется ли у автомобиля действительная электронная дорожная виньетка, или автомобиль освобожден от дорожного
+                                    сбора.
+                                    <br><br> Проверка будет осуществляться непосредственно на оплачиваемом участке автомагистрали при помощи патрульных автомобилей, оборудованных системой видеонаблюдения для распознания ГРНЗ, или посредством дистанционного
+                                    соединения с контрольными порталами, а также путем проверок в придорожных зонах отдыха и на парковках. <br><br>
+                                </p>
+                                <p class="shtraf_infoTwo"> Размер штрафов</p>
+                                <p class="shtraf_infoTr">
+                                    Водителю, обнаруженному системой на платном участке дороги без действующей электронной дорожной виньетки (если такой автомобиль не освобожден от дорожного сбора), грозит штраф до 20 000 CZK.
+                                </p>
+                                <p class="shtraf_infotre">
+                                    Проверка будет касаться и случаев незаконного пользования правом на освобождение. Если физическое или юридическое лицо подаст заявление об освобождении от дорожного сбора, не имея права на таковое, путем умышленного обмана системы, штраф может составить
+                                    до 100 000 CZK. Если платный участок дороги будет использоваться автомобилем, на который распространяется освобождение от сбора, но водитель при этом не подаст необходимое заявление несмотря на требование закона, такому
+                                    водителю грозит штраф до 5 000 CZK. Такой же штраф грозит и тем, кто в течение десяти рабочих дней не сообщит в Государственный фонд транспортной инфраструктуры о том, что оснований для освобождения более не существует.
+                                </p>
+                                <p class="shtraf_infoFour">
+                                    Что произойдет с полученными данными и фотоснимками?
+                                </p>
+                                <p class="shtraf_infoEnd">
+                                    Помимо считывания ГРНЗ автомобиля и последующего выяснения данных о действительности электронной дорожной виньетки, будет также сделана фотография автомобиля, не освобожденного от дорожного сбора, если у него не окажется действительной электронной виньетки.
+                                    Сразу же после получения фотоснимка программное обеспечение отделит фотографию от данных, после чего будут обрабатываться исключительно данные, которые будут отправлены в систему проверки.
+                                </p>
+                                <p class="shtraf_infoEnde">
+                                    В рамках системы электронной дорожной виньетки фотографии не используются. Они сохраняются только на протяжении установленного срока, в течение которого Полиция ЧР или Таможенное управление ЧР могут запросить их в случае возбуждения административного
+                                    производства. По прошествии установленного срока фотоснимки будут автоматически удалены.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <section class="footer">
+            <div class="footer_opa"></div>
+            <div class="container">
+                <div class="footerbox">
+                    <div class="foot">
+                        <img src="assets/images/footer_logo.png" class="foot_img" alt="404">
+                        <img src="assets/icons/footerlogomedia.png" class="foot_imgmedia" alt="404">
+                        <h1 class="foot_title">Желаем удачного пути!</h1>
+                    </div>
+                    <div class="footTwo">
+                        <div class="boo">
+                            <a href="index.html" class="footTwo_one">Электронные дорожные виньетки</a>
+                            <a href="where.html" class="footTwo_two">Где действует виньетка</a>
+                            <a href="buy.html" class="footTwo_three">Как купить виньетку</a>
+                            <a href="que.html" class="footTwo_four">Вопрос ответ</a>
+                            <a href="" class="footTwo_five">Освобождение от дорожного сбора</a>
+                            <a href="" class="footTwo_six">Уведомление об изменении гос. знака</a>
+                            <div class="linear_media"></div>
+                        </div>
+                    </div>
+                    <div class="liner_foot"></div>
+
+                    <div class="footThree">
+                        <div class="booo">
+                            <a href="pol.html" class="footThree_one">Пользовательское соглашение</a>
+                            <a href="us.html" class="footThree_two">Условия конфиденциальности </a>
+                            <a href="cooki.html" class="footThree_three">Cookie </a>
+                            <a href="kontakt.html" class="footThree_four"> Контакты</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="container">
+                <div>
+                    <h1 class="foot_titlemedia">Желаем удачного пути!</h1>
+                    <p class="footTwo_seven">Copyright © 2021 службу предоставляет компания Letiste Express s.r.o., IČ: 06818188, DIČ: CZ06818188 </p>
+                </div>
+            </div>
+            <div id="cookie_notification">
+                <div class="container">
+                    <p>Этот веб-сайт использует cookies для улучшения взаимодействия с пользователем при посещении веб-сайта. Используя наш сайт Вы с этим соглашаетесь.</p>
+                    <div class="cookie__flex">
+                        <a href="#">Подробнее здесь</a>
+                        <button class="button cookie_accept">Понятно</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="https://kit.fontawesome.com/a91a27e46f.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    <script src="js/mains.js"></script>
+
+</body>
+
+</html>

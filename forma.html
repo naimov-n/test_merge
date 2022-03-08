@@ -1,0 +1,1100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.6/css/selectize.bootstrap3.min.css" />
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body onload="loade()">
+    <section class="header">
+        <div class="container">
+            <div class="header_navbar">
+                <div class="navbar_logo">
+                    <a href="#" class="navbar_logo_img">
+                        <img src="assets/icons/logo.png" alt="404">
+                    </a>
+                    <div class="navbar_logo_title">
+                        <p class="logo_title">Платные автомагистрали Чешской республики</p>
+                        <div class="liner_logo_title"></div>
+                        <p class="logo_title_info">Электронная дорожная виньетка</p>
+                    </div>
+                </div>
+                <!-- new   -->
+                <div class="burger_menu" onclick="burgerMenu()">
+                    <img src="assets/icons/menu.svg" alt="404">
+                </div>
+                <div id="menu">
+                    <div class="container">
+                        <div class="navbar_lenguage">
+                            <p class="navbar_lenguage_title">Язык:</p>
+                            <div class="select">
+                                <input class="select__input" type="hidden" name="">
+                                <div class="select__head">Выберите</div>
+                                <ul class="select__list" style="display: none;">
+                                    <li class="select__item">Polski</li>
+                                    <li class="select__item">Deutsch </li>
+                                    <li class="select__item">český</li>
+                                    <li class="select__item">română</li>
+                                    <li class="select__item">English</li>
+                                    <li class="select__item">Polski</li>
+                                    <li class="select__item">Deutsch </li>
+                                    <li class="select__item">český</li>
+                                    <li class="select__item">română</li>
+                                    <li class="select__item">English</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="header_tabs">
+                            <ul class="nav nav-tabs">
+                                <li class="nav-item">
+                                    <a class="nav-link  " href="index.html">Электронная дорожная
+                                        виньетка</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="where.html">Где действует виньетка</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link " href="buy.html">Как купить виньетку</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link " href="que.html">Вопрос - Ответ</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- new end  -->
+                <div class="navbar_lenguage">
+                    <!-- kuchirish -->
+                    <!-- kuchirish -->
+                    <p class="navbar_lenguage_title">Язык:</p>
+                    <div class="select">
+                        <input class="select__input" type="hidden" name="">
+                        <div class="select__head">Выберите</div>
+                        <ul class="select__list" style="display: none;">
+                            <li class="select__item">Polski</li>
+                            <li class="select__item">Deutsch </li>
+                            <li class="select__item">český</li>
+                            <li class="select__item">română</li>
+                            <li class="select__item">English</li>
+                            <li class="select__item">Polski</li>
+                            <li class="select__item">Deutsch </li>
+                            <li class="select__item">český</li>
+                            <li class="select__item">română</li>
+                            <li class="select__item">English</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="liner_header"></div>
+        <div class="container">
+            <div class="header_tabs">
+                <ul class="nav ">
+                    <li class="nav-item">
+                        <a class="nav-link  " href="index.html">Электронная дорожная виньетка</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="where.html">Где действует виньетка</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="buy.html">Как купить виньетку</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="que.html">Вопрос - Ответ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="form">
+        <div class="container">
+            <form action="" class="box_form">
+                <h1 class="box_form_title">Информация о транспортном средстве</h1>
+                <div class="box_form_linear"> </div>
+                <div class="input_box">
+                    <div class="input_boxOne">
+                        <h1 class="selectTwo_title">Страна регистрации ТС</h1>
+                        <div class="new_select">
+                            <select id="select-state" placeholder="Выберите страну">
+                                <option value="">Выберите страну</option>
+                                <option value="AD">AD - Княжество Андорра</option>
+                                <option value="AE">AE - Объединённые Арабские Эмираты</option>
+                                <option value="AF">AF - Исламская Республика Афганистан</option>
+                                <option value="AG">AG - Антигуа и Барбуда</option>
+                                <option value="AI">AI - Ангилья</option>
+                                <option value="AL">AL - Республика Албания</option>
+                                <option value="AM">AM - Республика Армения</option>
+                                <option value="AO">AO - Республика Ангола</option>
+                                <option value="AQ">AQ - Антарктида</option>
+                                <option value="AR">AR - Аргентинская Республика</option>
+                                <option value="AS">AS - Американское Самоа</option>
+                                <option value="AT">AT - Республика Австрия</option>
+                                <option value="AU">AU - Содружество Австралии</option>
+                                <option value="AW">AW - Аруба</option>
+                                <option value="AX">AX - Аландские острова</option>
+                                <option value="AZ">AZ - Азербайджанская Республика</option>
+                                <option value="BA">BA - Босния и Герцеговина</option>
+                                <option value="BB">BB - Барбадос</option>
+                                <option value="BD">BD - Народная Республика Бангладеш</option>
+                                <option value="BE">BE - Королевство Бельгия</option>
+                                <option value="BF">BF - Буркина‑Фасо</option>
+                                <option value="BG">BG - Республика Болгария</option>
+                                <option value="BH">BH - Королевство Бахрейн</option>
+                                <option value="BI">BI - Республика Бурунди</option>
+                                <option value="BJ">BJ - Республика Бенин</option>
+                                <option value="BL">BL - Сен‑Бартелеми</option>
+                                <option value="BM">BM - Бермуды</option>
+                                <option value="BN">BN - Государство Бруней‑Даруссалам</option>
+                                <option value="BO">BO - Многонациональное государство Боливия</option>
+                                <option value="BQ">BQ - Бонэйр, Синт‑Эстатиус и Саба</option>
+                                <option value="BR">BR - Федеративная Республика Бразилия</option>
+                                <option value="BS">BS - Содружество Багамских Островов</option>
+                                <option value="BT">BT - Королевство Бутан</option>
+                                <option value="BV">BV - Остров Буве</option>
+                                <option value="BW">BW - Республика Ботсвана</option>
+                                <option value="BY">BY - Республика Беларусь</option>
+                                <option value="BZ">BZ - Белиз</option>
+                                <option value="CA">CA - Канада</option>
+                                <option value="CC">CC - Территория Кокосовых островов (Килинг)</option>
+                                <option value="CD">CD - Демократическая Республика Конго</option>
+                                <option value="CF">CF - Центрально‑Африканская Республика</option>
+                                <option value="CG">CG - Республика Конго</option>
+                                <option value="CH">CH - Швейцарская Конфедерация</option>
+                                <option value="CI">CI - Республика Кот‑д'Ивуар</option>
+                                <option value="CK">CK - Острова Кука</option>
+                                <option value="CL">CL - Республика Чили</option>
+                                <option value="CM">CM - Республика Камерун</option>
+                                <option value="CN">CN - Китайская Народная Республика</option>
+                                <option value="CO">CO - Республика Колумбия</option>
+                                <option value="CR">CR - Республика Коста‑Рика</option>
+                                <option value="CU">CU - Республика Куба</option>
+                                <option value="CV">CV - Республика Кабо‑Верде</option>
+                                <option value="CW">CW - Кюрасао</option>
+                                <option value="CX">CX - Остров Рождества</option>
+                                <option value="CY">CY - Республика Кипр</option>
+                                <option value="CZ">CZ - Чешская Республика</option>
+                                <option value="DE">DE - Федеративная Республика Германия</option>
+                                <option value="DJ">DJ - Республика Джибути</option>
+                                <option value="DK">DK - Королевство Дания</option>
+                                <option value="DM">DM - Содружество Доминики</option>
+                                <option value="DO">DO - Доминиканская Республика</option>
+                                <option value="DZ">DZ - Алжирская Демократическая Народная Республика</option>
+                                <option value="EC">EC - Республика Эквадор</option>
+                                <option value="EE">EE - Эстонская Республика</option>
+                                <option value="EG">EG - Арабская Республика Египет</option>
+                                <option value="EH">EH - Сахарская Арабская Демократическая Республика</option>
+                                <option value="ER">ER - Государство Эритрея</option>
+                                <option value="ES">ES - Королевство Испания</option>
+                                <option value="ET">ET - Федеративная Демократическая Республика Эфиопия</option>
+                                <option value="FI">FI - Финляндская Республика</option>
+                                <option value="FJ">FJ - Республика островов Фиджи</option>
+                                <option value="FK">FK - Фолклендские (Мальвинские) острова</option>
+                                <option value="FM">FM - Федеративные Штаты Микронезии</option>
+                                <option value="FO">FO - Фарерские острова</option>
+                                <option value="FR">FR - Французская Республика</option>
+                                <option value="GA">GA - Габонская Республика</option>
+                                <option value="GB">GB - Соединенное Королевство Великобритании и Северной Ирландии
+                                </option>
+                                <option value="GD">GD - Гренада</option>
+                                <option value="GE">GE - Грузия</option>
+                                <option value="GF">GF - Французская Гвиана</option>
+                                <option value="GG">GG - Бейливик Гернси</option>
+                                <option value="GH">GH - Республика Гана</option>
+                                <option value="GI">GI - Гибралтар</option>
+                                <option value="GL">GL - Гренландия</option>
+                                <option value="GM">GM - Республика Гамбия</option>
+                                <option value="GN">GN - Республика Гвинея</option>
+                                <option value="GP">GP - Гваделупа</option>
+                                <option value="GQ">GQ - Республика Экваториальная Гвинея</option>
+                                <option value="GR">GR - Греческая Республика</option>
+                                <option value="GS">GS - Южная Георгия и Южные Сандвичевы острова</option>
+                                <option value="GT">GT - Республика Гватемала</option>
+                                <option value="GU">GU - Территория Гуам</option>
+                                <option value="GW">GW - Республика Гвинея‑Бисау</option>
+                                <option value="GY">GY - Кооперативная Республика Гайана</option>
+                                <option value="HK">HK - Специальный административный район Гонконг Китайской Народной
+                                    Республики</option>
+                                <option value="HM">HM - Остров Херд и острова Макдональд</option>
+                                <option value="HN">HN - Республика Гондурас</option>
+                                <option value="HR">HR - Республика Хорватия</option>
+                                <option value="HT">HT - Республика Гаити</option>
+                                <option value="HU">HU - Венгрия</option>
+                                <option value="ID">ID - Республика Индонезия</option>
+                                <option value="IE">IE - Ирландия</option>
+                                <option value="IL">IL - Израиль</option>
+                                <option value="IM">IM - Остров Мэн</option>
+                                <option value="IN">IN - Республика Индия</option>
+                                <option value="IO">IO - Британская территория в Индийском океане</option>
+                                <option value="IQ">IQ - Республика Ирак</option>
+                                <option value="IR">IR - Исламская Республика Иран</option>
+                                <option value="IS">IS - Республика Исландия</option>
+                                <option value="IT">IT - Итальянская Республика</option>
+                                <option value="JE">JE - Бейливик Джерси</option>
+                                <option value="JM">JM - Ямайка</option>
+                                <option value="JP">JP - Япония</option>
+                                <option value="KE">KE - Республика Кения</option>
+                                <option value="KG">KG - Кыргызская Республика</option>
+                                <option value="KH">KH - Королевство Камбоджа</option>
+                                <option value="KI">KI - Республика Кирибати</option>
+                                <option value="KM">KM - Союз Коморских Островов</option>
+                                <option value="KP">KP - Корейская Народно‑Демократическая Республика</option>
+                                <option value="KR">KR - Корейская республика</option>
+                                <option value="KW">KW - Государство Кувейт</option>
+                                <option value="KY">KY - Каймановы острова</option>
+                                <option value="KZ">KZ - Республика Казахстан</option>
+                                <option value="LA">LA - Лаосская Народно‑Демократическая Республика</option>
+                                <option value="LB">LB - Республика Ливан</option>
+                                <option value="LC">LC - Санкт‑Люсия</option>
+                                <option value="LI">LI - Княжество Лихтенштейн</option>
+                                <option value="LK">LK - Демократическая Социалистическая Республика Шри‑Ланка</option>
+                                <option value="LR">LR - Республика Либерия</option>
+                                <option value="LS">LS - Королевство Лесото</option>
+                                <option value="LT">LT - Литовская Республика</option>
+                                <option value="LU">LU - Великое Герцогство Люксембург</option>
+                                <option value="LV">LV - Латвийская Республика</option>
+                                <option value="LY">LY - Государство Ливия</option>
+                                <option value="MA">MA - Королевство Марокко</option>
+                                <option value="MC">MC - Княжество Монако</option>
+                                <option value="MD">MD - Республика Молдова</option>
+                                <option value="ME">ME - Черногория</option>
+                                <option value="MF">MF - Сен‑Мартен</option>
+                                <option value="MG">MG - Республика Мадагаскар</option>
+                                <option value="MH">MH - Республика Маршалловы Острова</option>
+                                <option value="ML">ML - Республика Мали</option>
+                                <option value="MM">MM - Республика Союз Мьянма</option>
+                                <option value="MN">MN - Монголия</option>
+                                <option value="MO">MO - Специальный административный район Макао Китайской Народной
+                                    Республики</option>
+                                <option value="MP">MP - Северные Марианские острова</option>
+                                <option value="MQ">MQ - Мартиника</option>
+                                <option value="MR">MR - Исламская Республика Мавритания</option>
+                                <option value="MS">MS - Монсеррат</option>
+                                <option value="MT">MT - Республика Мальта</option>
+                                <option value="MU">MU - Республика Маврикий</option>
+                                <option value="MV">MV - Республика Мальдивы</option>
+                                <option value="MW">MW - Республика Малави</option>
+                                <option value="MX">MX - Мексиканские Соединенные Штаты</option>
+                                <option value="MY">MY - Малайзия</option>
+                                <option value="MZ">MZ - Республика Мозамбик</option>
+                                <option value="NA">NA - Республика Намибия</option>
+                                <option value="NC">NC - Новая Каледония</option>
+                                <option value="NE">NE - Республика Нигер</option>
+                                <option value="NF">NF - Остров Норфолк</option>
+                                <option value="NG">NG - Федеративная Республика Нигерия</option>
+                                <option value="NI">NI - Республика Никарагуа</option>
+                                <option value="NL">NL - Нидерланды</option>
+                                <option value="NO">NO - Королевство Норвегия</option>
+                                <option value="NP">NP - Федеративная Демократическая Республика Непал</option>
+                                <option value="NR">NR - Республика Науру</option>
+                                <option value="NU">NU - Ниуэ</option>
+                                <option value="NZ">NZ - Новая Зеландия</option>
+                                <option value="OM">OM - Султанат Оман</option>
+                                <option value="PA">PA - Республика Панама</option>
+                                <option value="PE">PE - Республика Перу</option>
+                                <option value="PF">PF - Французская Полинезия</option>
+                                <option value="PG">PG - Независимое государство Папуа‑Новая Гвинея</option>
+                                <option value="PH">PH - Республика Филиппины</option>
+                                <option value="PK">PK - Исламская Республика Пакистан</option>
+                                <option value="PL">PL - Республика Польша</option>
+                                <option value="PM">PM - Территориальное объединение Сен‑Пьер и Микелон</option>
+                                <option value="PN">PN - Острова Питкэрн</option>
+                                <option value="PR">PR - Свободно ассоциированное государство Пуэрто‑Рико</option>
+                                <option value="PS">PS - Палестинская национальная автономия</option>
+                                <option value="PT">PT - Португальская Республика</option>
+                                <option value="PW">PW - Республика Палау</option>
+                                <option value="PY">PY - Республика Парагвай</option>
+                                <option value="QA">QA - Государство Катар</option>
+                                <option value="RE">RE - Реюньон</option>
+                                <option value="RO">RO - Румыния</option>
+                                <option value="RS">RS - Республика Сербия</option>
+                                <option value="RU">RU - Российская Федерация</option>
+                                <option value="RW">RW - Республика Руанда</option>
+                                <option value="SA">SA - Королевство Саудовская Аравия</option>
+                                <option value="SB">SB - Соломоновы острова</option>
+                                <option value="SC">SC - Республика Сейшельские Острова</option>
+                                <option value="SD">SD - Республика Судан</option>
+                                <option value="SE">SE - Королевство Швеция</option>
+                                <option value="SG">SG - Республика Сингапур</option>
+                                <option value="SH">SH - Острова Святой Елены, Вознесения и Тристан‑да‑Кунья</option>
+                                <option value="SI">SI - Республика Словения</option>
+                                <option value="SJ">SJ - Шпицберген и Ян‑Майен</option>
+                                <option value="SK">SK - Словацкая Республика</option>
+                                <option value="SL">SL - Республика Сьерра‑Леоне</option>
+                                <option value="SM">SM - Республика Сан‑Марино</option>
+                                <option value="SN">SN - Республика Сенегал</option>
+                                <option value="SO">SO - Федеративная Республика Сомали</option>
+                                <option value="SR">SR - Республика Суринам</option>
+                                <option value="SS">SS - Республика Южный Судан</option>
+                                <option value="ST">ST - Демократическая Республика Сан‑Томе и Принсипи</option>
+                                <option value="SV">SV - Республика Сальвадор</option>
+                                <option value="SX">SX - Сен‑Мартен (Нидерланды)</option>
+                                <option value="SY">SY - Сирийская Арабская Республика</option>
+                                <option value="SZ">SZ - Королевство Свазиленд</option>
+                                <option value="TC">TC - Острова Тёркс и Кайкос</option>
+                                <option value="TD">TD - Республика Чад</option>
+                                <option value="TF">TF - Французские Южные и Антарктические Земли</option>
+                                <option value="TG">TG - Республика Того</option>
+                                <option value="TH">TH - Королевство Таиланд</option>
+                                <option value="TJ">TJ - Республика Таджикистан</option>
+                                <option value="TK">TK - Токелау</option>
+                                <option value="TL">TL - Демократическая Республика Восточный Тимор</option>
+                                <option value="TM">TM - Туркменистан</option>
+                                <option value="TN">TN - Тунисская Республика</option>
+                                <option value="TO">TO - Королевство Тонга</option>
+                                <option value="TR">TR - Турецкая Республика</option>
+                                <option value="TT">TT - Республика Тринидад и Тобаго</option>
+                                <option value="TV">TV - Тувалу</option>
+                                <option value="TW">TW - Китайская Республика (Тайвань)</option>
+                                <option value="TZ">TZ - Объединенная Республика Танзания</option>
+                                <option value="UA">UA - Украина</option>
+                                <option value="UG">UG - Республика Уганда</option>
+                                <option value="UM">UM - Внешние малые острова США</option>
+                                <option value="US">US - Соединенные Штаты Америки</option>
+                                <option value="UY">UY - Восточная Республика Уругвай</option>
+                                <option value="UZ">UZ - Республика Узбекистан</option>
+                                <option value="VA">VA - Город‑государство Ватикан</option>
+                                <option value="VC">VC - Святой Винсент и Гренадины</option>
+                                <option value="VE">VE - Боливарианская Республика Венесуэла</option>
+                                <option value="VG">VG - Британские Виргинские острова</option>
+                                <option value="VI">VI - Виргинские острова США</option>
+                                <option value="VN">VN - Социалистическая Республика Вьетнам</option>
+                                <option value="VU">VU - Республика Вануату</option>
+                                <option value="WF">WF - Территория Уоллис и Футуна</option>
+                                <option value="WS">WS - Независимое государство Самоа</option>
+                                <option value="XK">XK - Республика Косово</option>
+                                <option value="YE">YE - Республика Йемен</option>
+                                <option value="YT">YT - Майотта</option>
+                                <option value="ZA">ZA - Южно‑Африканская Республика</option>
+                                <option value="ZM">ZM - Республика Замбия</option>
+                                <option value="ZW">ZW - Республика Зимбабве</option>
+                            </select>
+                            <div id="v1"></div>
+                        </div>
+                        <div class="gosBox">
+                            <div class="gosBox_original">
+                                <div class="gosBox_titleBox">
+                                    <h1 class="gosBox_titleBox_title">Государственный номерной знак ТС</h1>
+                                    <img src="assets/icons/ogoh.png" onclick="br(3)" class="gosBox_titleBox_title_img" alt="404">
+                                    <!-- kuchirish -->
+                                    <div id="tool" class="bigtool">
+                                        <div class="tool">
+                                            <p class="tool_title">Вводите цифры и буквы без пробелов, тире, диакретических и специальных знаков.</p>
+                                            <img onclick="br(4)" src="assets/icons/close.png" class="tool_img" alt="404">
+                                        </div>
+                                    </div>
+                                    <!-- kuchirish -->
+                                </div>
+                                <div id="gosBoxs"></div>
+                                <input type="text" class="gosBox_input" id="gosBox" onkeyup="checkName()" style="text-transform: uppercase;" autocapitalize="characters" placeholder="635871">
+
+
+                            </div>
+                            <div class="gosBox_povtor">
+                                <h1 class="gosBox_titleBox_title_povtor">Повторите ввод номерного знака ТС</h1>
+                                <div id="gosBox_povs"></div>
+                                <div class="checking">
+                                    <input type="text" class="gosBox_input_povtor" id="gosBox_pov" onkeyup="checkName()" style="text-transform: uppercase;" autocapitalize="characters" placeholder="635871">
+                                    <i id="yes" style="display: none;">&#10003;</i> <i id="no" style="display: none;">&times;</i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dataBox">
+                            <div class="dataBox_title">
+                                <h1 class="dataBox_title_title">Дата начала действий дорожной виньетки</h1>
+                                <img src="assets/icons/ogoh.png" onclick="br(1)" class="dataBox_title_img" alt="404">
+                                <!-- kuchirish -->
+                                <div id="tooltwo" class="bigtoolTwo">
+                                    <div class="tooltwo">
+                                        <p class="tooltwo_title">Выберете дату начала действия виньетки. Начало срока действия всех трех видов электронной дорожной виньетки при покупке можно будет отсрочить на три месяца.</p>
+                                        <img onclick="br(2)" src="assets/icons/close.png" class="tooltwo_img" alt="404">
+                                    </div>
+                                </div>
+                                <!-- kuchirish -->
+                            </div>
+                            <input id="dates" type="date" class="dataBox_input chang_input">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="box_form_chekbox">
+                    <input type="checkbox" class="box_form_chekbox_box" id="checkbox">
+                    <p class="box_form_chekbox_title">Автомобиль работает на природном газе (CNG) или биометане (Внимание: не касаеться автомоболей на LPG (на газу))</p>
+                </div>
+                <div id="box_radio" class="box_form_radio d-none">
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input type="radio" id="prirod_gaz" class="form-check-inputRadio" name="optradio"
+                                checked>Природный газ
+                        </label>
+                    </div>
+                    <div class="form-checkTwo">
+                        <label class="form-check-label">
+                            <input type="radio" id="biometan" class="form-check-inputRadio" name="optradio">Биометан
+                        </label>
+                    </div>
+                </div>
+                <div class="box_form_type">
+                    <p class="form_type_title"></p>
+                    <div class="form_type_box">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-12">
+                                <div id="god" class="form_godovaya" onclick="changeTarif(1)">
+                                    <img src="assets/icons/zebra.png" class="form_godovaya_img" alt="404">
+                                    <div class="form_godovaya_text">
+                                        <h1 class="godovaya_text_title">Годовая</h1>
+                                        <h1 class="godovaya_text_info" id="d45">45€</h1>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-12">
+                                <div id="dnev" class="form_dnev" onclick="changeTarif(2)">
+                                    <img src="assets/icons/zebra.png" class="form_dnev_img" alt="404">
+                                    <div class="form_dnev_text">
+                                        <h1 class="dnev_text_title">30-дневная</h1>
+                                        <h1 class="dnev_text_info" id="d25">25€</h1>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-12">
+                                <div id="dnevTwo" class="form_dnevTwo " onclick="changeTarif(3)">
+                                    <img src="assets/icons/zebra.png" class="form_dnevTwo_img" alt="404">
+                                    <div class="form_dnevTwo_text">
+                                        <h1 class="dnevTwo_text_title">10-дневная</h1>
+                                        <h1 class="dnevTwo_text_info" id="d15">15€</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box_form_contact">
+                    <h1 class="box_form_contact_title">Контактные данные</h1>
+                    <div class="box_form_contact_linear"></div>
+                    <div class="form_contactBox">
+                        <div class="box_inputOne position-relative">
+                            <label for="email"> E-mail
+                                <div id="emails">
+                                    <input type="email" placeholder="Укажите e-mail" id="email" onkeyup="checkEmail()"
+                                        class="email_input" required="e-mail">
+                                    <p class="email_p d-none" id="email_p">Пожалуйста, укажите адрес эл. почты в
+                                        действительном формате.</p>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="box_inputTwo">
+                            <label for="povemail">
+                                Повторите e-mail
+                                <div id="povemails" class="check_email">
+                                    <input type="email" placeholder="Укажите e-mail" id="povemail"
+                                        onkeyup="checkEmail()" disabled class="email_povinput">
+                                    <i id="yes_email" style="display: none;">&#10003;</i> <i id="no_email"
+                                        style="display: none;">&times;</i>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                    <p class="adress_info">
+                        На этот адрес электронной почты мы отправим вам Подтверждение об оплате дорожного сбора.
+                    </p>
+                </div>
+                <div class="box_form_oplata">
+                    <h1 class="form_oplata_title">Оплата</h1>
+                    <div class="form_oplata_linear"></div>
+                    <div class="oplata_bank">
+                        <input type="radio" class="oplata_bank_radio" checked>
+                        <p class="oplata_bank_title">Банковской картой</p>
+                    </div>
+                </div>
+                <div class="box_form_infoOplata">
+                    <h1 class="form_infoOplata_title">Информация к оплате </h1>
+                    <div class="form_infoOplata_linear"></div>
+                    <div class="form_infoOplata_box">
+                        <p class="infoOplata_box_title">Автомобиль</p>
+                        <div class="avto_flex">
+                            <p id="span_avto">
+                                </span>
+                                <p class="infoOplata_box_info" id="avto"> Не указано</p>
+                        </div>
+                        <p class="infoOplata_box_titleTwo">Период действия виньетки</p>
+                        <p class="infoOplata_box_infoTwo" id="data"></p>
+                        <p class="infoOplata_box_titleTree">Тип виньетки</p>
+                        <p class="infoOplata_box_infoTree" id="day_end"></p>
+                        <p class="infoOplata_box_titleFour">Вид двигателя</p>
+                        <p class="infoOplata_box_infoFour" id="dvigatel">Обычное топливо</p>
+                        <p class="infoOplata_box_titleFive">Эл. почта</p>
+                        <p class="infoOplata_box_infoFive" id="emailss">Не указано</p>
+                        <p class="infoOplata_box_titleSix">Сводка к оплате</p>
+                        <p class="infoOplata_box_infoSix" id="obshiy_summa"></p>
+                        <p class="infoOplata_box_info_stoimost">*Стоимость указана с установленным законом дорожным сбором, включая комиссию поставщика услуг</p>
+                        <p class="infoOplata_box_infoValuta">Курс валют: 1€ = 25.5 CZK (согласно актуальному курсу ČNB)
+                        </p>
+                        <div class="preduprejdeniya_box">
+                            <img src="assets/icons/xaffli.png" class="preduprejdeniya_box_img" alt="404">
+                            <p class="preduprejdeniya_box_title">Внимательно проверьте введенные данные (код страны регистрации автомобиля, ГРНЗ, адрес электронной почты, начало срока действия виньетки и т. д.). С началом действия виньетки внесение изменений или возврат денег станут невозможными.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="soglasiya">
+                    <input id="checkedsss" type="checkbox" class="soglasiya_chekbox">
+                    <p class="soglasiya_title">Выражаю согласие с условиями оплаты и подтверждаю достоверность указанных данных. После совершения оплаты виньетку нельзя аннулировать.</p>
+
+                </div>
+                <div class="box_btn">
+                    <button id="checked" type="button" disabled class="btn pereyti_btn">Перейти к оплате</button>
+                </div>
+
+            </form>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="footer_opa"></div>
+        <div class="container">
+            <div class="footerbox">
+                <div class="foot">
+                    <img src="assets/images/footer_logo.png" class="foot_img" alt="404">
+                    <img src="assets/icons/footerlogomedia.png" class="foot_imgmedia" alt="404">
+                    <h1 class="foot_title">Желаем удачного пути!</h1>
+                </div>
+                <div class="footTwo">
+                    <div class="boo">
+                        <a href="index.html" class="footTwo_one">Электронные дорожные виньетки</a>
+                        <a href="where.html" class="footTwo_two">Где действует виньетка</a>
+                        <a href="buy.html" class="footTwo_three">Как купить виньетку</a>
+                        <a href="que.html" class="footTwo_four">Вопрос ответ</a>
+                        <a href="" class="footTwo_five">Освобождение от дорожного сбора</a>
+                        <a href="" class="footTwo_six">Уведомление об изменении гос. знака</a>
+                        <div class="linear_media"></div>
+                    </div>
+                </div>
+                <div class="liner_foot"></div>
+
+                <div class="footThree">
+                    <div class="booo">
+                        <a href="pol.html" class="footThree_one">Пользовательское соглашение</a>
+                        <a href="us.html" class="footThree_two">Условия конфиденциальности </a>
+                        <a href="cooki.html" class="footThree_three">Cookie </a>
+                        <a href="kontakt.html" class="footThree_four"> Контакты</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="container">
+            <div>
+                <h1 class="foot_titlemedia">Желаем удачного пути!</h1>
+                <p class="footTwo_seven">Copyright © 2021 службу предоставляет компания Letiste Express s.r.o., IČ: 06818188, DIČ: CZ06818188 </p>
+            </div>
+        </div>
+
+        <div id="cookie_notification">
+            <p>Для улучшения работы сайта и его взаимодействия с пользователями мы используем файлы cookie. Продолжая работу с сайтом, Вы разрешаете использование cookie-файлов. Вы всегда можете отключить файлы cookie в настройках Вашего браузера.</p>
+            <button class="button cookie_accept">Принять</button>
+        </div>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/select.js"></script>
+    <script src="https://kit.fontawesome.com/a91a27e46f.js" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+    <!-- <script src="https://unpkg.com/axios/dist/axios.min.js"></script> -->
+    <script>
+        $('#checked').on('click', function() {
+            let checked = document.getElementById('checked');
+
+            console.log('hell');
+
+        });
+
+        function numberSpliter(num) {
+            num += ''
+            let extraNum = num.split('.')[1]
+            num = num.split('.')[0]
+            let spNum = (num + '').split('').reverse()
+            spNum = spNum.map((el, index) => {
+                return (index % 3 == 0 && index != 0) ? (el = el + ',') : el
+            })
+            return extraNum ? spNum.reverse().join('') + ',' + extraNum : spNum.reverse().join('') + ''
+        }
+
+        let locations = window.location.href;
+        let sena = locations.split('?')[1];
+        let sena1 = sena.substr(6);
+        let day = locations.split("?")[2];
+        let day1 = day.substr(4)
+
+
+
+
+
+        function calc() {
+            let natija = 25.5;
+            natija = sena1 * 25.5;
+            let okrug = natija.toFixed();
+            let split = numberSpliter(okrug);
+
+            obshiy_summa.innerHTML = sena1 + "€ * 25,5 CZK = " + split + " CZK";
+        }
+
+        function loade() {
+
+            let obshiy_summa = document.getElementById('obshiy_summa');
+            let datas = document.getElementById('data');
+            let checkboxs = document.getElementById('checkbox');
+            calc();
+            let das = new Date();
+
+            let kun = das.getDate();
+            let oy = parseFloat(das.getMonth()) + parseFloat(1);
+            let yil = das.getFullYear();
+            // console.log(das)
+            if (kun < 10) {
+                kun = "0" + kun;
+            }
+            if (oy < 10) {
+                oy = "0" + oy;
+            }
+
+            let obshiyData = yil + '-' + oy + '-' + kun;
+            let chto = document.getElementById('dates');
+            let yillss = new Date();
+            let yills = yillss.setMonth(parseFloat(yillss.getMonth()) + parseFloat(3));
+            let yillsRes = new Date(yills);
+
+            let yillsKun = yillsRes.getDate();
+            let yillsOy = parseFloat(yillsRes.getMonth() + parseFloat(1));
+            if (yillsKun < 10) {
+                yillsKun = "0" + yillsKun;
+            }
+            if (yillsOy < 10) {
+                yillsOy = "0" + yillsOy;
+            }
+
+            let obshiyRes = yillsRes.getFullYear() + '-' + yillsOy + '-' + yillsKun;
+            chto.setAttribute('min', obshiyData);
+
+            chto.setAttribute('max', obshiyRes);
+            let box = document.getElementById('box_radio');
+
+            $('#dates').on('change', function() {
+                defineCountry();
+                let chto = document.getElementById('dates');
+                let twsIn = document.getElementById('povemail');
+                let onsIn = document.getElementById('email');
+                let onIn = document.getElementById('gosBox');
+                let twIn = document.getElementById('gosBox_pov');
+                let chec = document.getElementById('checkedsss');
+                let count = document.getElementById('count');
+                let selects = document.getElementsByClassName('selectize-input');
+                let gosBoxs = document.getElementById('gosBoxs');
+                let gosBox_povs = document.getElementById('gosBox_povs');
+                let gosBox = document.getElementById('gosBox');
+                let gosBox_pov = document.getElementById('gosBox_pov');
+                let god = document.getElementById('god');
+                let v1 = document.getElementById('v1');
+                let dnev = document.getElementById('dnev');
+                let selects_txt = document.getElementById('select-state-selectized');
+                let dnevTwo = document.getElementById('dnevTwo');
+                let sana = chto.value;
+                let splits = sana.split('-');
+                chto.classList.add('change_input');
+                $(this).css("color", "black");
+                $(this).css("border-color", "black");
+                chto.classList.remove("allert_3");
+
+                if (countryIsFilled == true && gosBox.value && gosBox_pov.value) {
+                    v1.classList.remove('allert_1');
+                    selects[0].style.color = "#979797";
+                    selects[0].style.borderColor = "#3D5575";
+                    gosBox.classList.remove('allert_2');
+                    gosBox_pov.classList.remove('allert_2');
+                    gosBoxs.classList.remove('allert_2s');
+                    gosBox_povs.classList.remove('allert_2ss');
+
+                } else if (countryIsFilled == true && gosBox.value && !gosBox_pov.value) {
+                    gosBox_pov.classList.add('allert_2');
+                    gosBox_povs.classList.add('allert_2ss');
+                } else if (countryIsFilled == true && gosBox_pov.value && !gosBox.value) {
+                    gosBox.classList.add('allert_2');
+                    gosBoxs.classList.add('allert_2s');
+                } else if (countryIsFilled == true && !gosBox_pov.value && !gosBox.value) {
+                    gosBox.classList.add('allert_2');
+                    gosBox_pov.classList.add('allert_2');
+                    gosBoxs.classList.add('allert_2s');
+                    gosBox_povs.classList.add('allert_2ss');
+                } else if (countryIsFilled == false && gosBox.value && gosBox_pov.value) {
+                    v1.classList.add('allert_1');
+                    selects.style.color = "red";
+                } else if (countryIsFilled == false && !gosBox.value && !gosBox_pov.value) {
+                    v1.classList.add('allert_1');
+                    selects[0].style.borderColor = "red";
+                    selects_txt.classList.add('sele');
+                    gosBox.classList.add('allert_2');
+                    gosBox_pov.classList.add('allert_2');
+                    gosBoxs.classList.add('allert_2s');
+                    gosBox_povs.classList.add('allert_2ss');
+                }
+                if (god.classList.contains("hover_tarif")) {
+                    yil = splits[0];
+                    oy = splits[1];
+                    kun = splits[2];
+                    yillase = parseFloat(yil) + parseFloat(1);
+                    datas.innerHTML = kun + "." + oy + "." + yil + ", 00:00:00 - " + kun + "." + oy + "." + yillase + ", 23:59:59";
+                } else if (dnev.classList.contains("hover_tarif")) {
+                    yil = splits[0];
+                    oy = splits[1];
+                    kun = splits[2];
+                    let obshiyS = yil + "." + oy + "." + kun;
+                    let ss = new Date(obshiyS);
+                    let yill = ss.setDate(parseFloat(ss.getDate()) + parseFloat(30));
+                    let yillRes = new Date(yill);
+                    console.log(yillRes);
+                    let dayKun = yillRes.getDate() - 1;
+                    let dayOy = parseFloat(yillRes.getMonth() + parseFloat(1));
+                    if (dayKun < 10) {
+                        dayKun = '0' + dayKun;
+                    }
+                    if (dayOy < 10) {
+                        dayOy = '0' + dayOy;
+                    }
+                    datas.innerHTML = kun + "." + oy + "." + yil + ", 00:00:00 - " + dayKun + "." + dayOy + "." + yillRes.getFullYear() + ", 23:59:59";
+                } else if (dnevTwo.classList.contains("hover_tarif")) {
+                    yil = splits[0];
+                    oy = splits[1];
+                    kun = splits[2];
+                    let obshiyS = yil + "." + oy + "." + kun;
+                    let ss = new Date(obshiyS);
+                    let yill = ss.setDate(parseFloat(ss.getDate()) + parseFloat(10));
+                    let yillRes = new Date(yill);
+
+                    let dayKun = yillRes.getDate() - 1;
+                    let dayOy = parseFloat(yillRes.getMonth() + parseFloat(1));
+                    if (dayKun < 10) {
+                        dayKun = '0' + dayKun;
+                    }
+                    if (dayOy < 10) {
+                        dayOy = '0' + dayOy;
+                    }
+                    datas.innerHTML = kun + "." + oy + "." + yil + ", 00:00:00 - " + dayKun + "." + dayOy + "." + yillRes.getFullYear() + ", 23:59:59";
+                }
+
+                if (countryIsFilled == true && chec.checked && onIn.value === twIn.value && onsIn.value === twsIn.value && twIn.value && twsIn.value && onIn.value && onsIn.value) {
+                    checked.removeAttribute('disabled');
+
+                } else {
+                    checked.setAttribute('disabled', true);
+                }
+
+            });
+            $('#prirod_gaz').on('click', function() {
+                let sss = document.getElementById('dvigatel');
+
+                if ($(this).is(':checked')) {
+                    sss.innerHTML = "Природный газ";
+                } else {
+                    sss.innerHTML = "Обычное топливо";
+
+                }
+            })
+            $('#biometan').on('click', function() {
+                let sss = document.getElementById('dvigatel');
+                let chek = document.getElementById('checkbox');
+
+                if ($(this).is(':checked')) {
+                    sss.innerHTML = "Биометан";
+                } else {
+                    sss.innerHTML = "Обычное топливо";
+
+                }
+            })
+            $('#checkbox').on('click', function() {
+                let d15 = document.getElementById('d15');
+
+                let d25 = document.getElementById('d25');
+                let d45 = document.getElementById('d45');
+                let selects = document.getElementsByClassName('selectize-input');
+                let sss = document.getElementById('dvigatel');
+                let st = document.getElementById('prirod_gaz');
+                let bt = document.getElementById('biometan');
+                let god = document.getElementById('god');
+                let selects_txt = document.getElementById('select-state-selectized');
+                let dnev = document.getElementById('dnev');
+                let dnevTwo = document.getElementById('dnevTwo');
+                // let count = document.getElementById('count');
+                let gosBox_pov = document.getElementById('gosBox_pov');
+                let gosBox = document.getElementById('gosBox');
+                let gosBox_povs = document.getElementById('gosBox_povs');
+                let gosBoxs = document.getElementById('gosBoxs');
+                let dates = document.getElementById('dates');
+                if (!dates.value) {
+                    dates.style.borderColor = 'red';
+                }
+                if (countryIsFilled == true && gosBox.value && gosBox_pov.value) {
+                    v1.classList.remove('allert_1');
+                    selects[0].style.color = "#979797";
+                    selects[0].style.borderColor = "#3D5575";
+                    gosBox.classList.remove('allert_2');
+                    gosBox_pov.classList.remove('allert_2');
+                    gosBoxs.classList.remove('allert_2s');
+                    gosBox_povs.classList.remove('allert_2ss');
+
+                } else if (countryIsFilled == true && gosBox.value && !gosBox_pov.value) {
+                    gosBox_pov.classList.add('allert_2');
+                    gosBox_povs.classList.add('allert_2ss');
+                } else if (countryIsFilled == true && gosBox_pov.value && !gosBox.value) {
+                    gosBox.classList.add('allert_2');
+                    gosBoxs.classList.add('allert_2s');
+                } else if (countryIsFilled == true && !gosBox_pov.value && !gosBox.value) {
+                    gosBox.classList.add('allert_2');
+                    gosBox_pov.classList.add('allert_2');
+                    gosBoxs.classList.add('allert_2s');
+                    gosBox_povs.classList.add('allert_2ss');
+                } else if (countryIsFilled == false && gosBox.value && gosBox_pov.value) {
+                    v1.classList.add('allert_1');
+                    selects_txt.classList.add('sele');
+                    selects[0].style.borderColor = "red";
+                } else if (countryIsFilled == false && !gosBox.value && !gosBox_pov.value) {
+                    v1.classList.add('allert_1');
+                    selects_txt.classList.add('sele');
+                    selects[0].style.borderColor = "red";
+                    gosBox.classList.add('allert_2');
+                    gosBox_pov.classList.add('allert_2');
+                    gosBoxs.classList.add('allert_2s');
+                    gosBox_povs.classList.add('allert_2ss');
+                } else if (countryIsFilled == false && gosBox.value && !gosBox_pov.value) {
+                    v1.classList.add('allert_1');
+                    selects_txt.classList.add('sele');
+                    selects[0].style.borderColor = "red";
+
+                    gosBox_pov.classList.add('allert_2');
+
+                    gosBox_povs.classList.add('allert_2ss');
+                } else if (countryIsFilled == false && !gosBox.value && gosBox_pov.value) {
+                    v1.classList.add('allert_1');
+                    selects_txt.classList.add('sele');
+                    selects[0].style.borderColor = "red";
+                    gosBox.classList.add('allert_2');
+
+                    gosBoxs.classList.add('allert_2s');
+
+                }
+                if ($(this).is(':checked')) {
+                    if (st.checked) {
+                        sss.innerHTML = "Природный газ";
+                    } else if (bt.checked) {
+                        sss.innerHTML = "Биометан";
+                    }
+                    d15.innerHTML = "10€ <img src='../assets/icons/barg.svg' alt='404' >";
+                    d25.innerHTML = "20€ <img src='../assets/icons/barg.svg' alt='404' >";
+                    d45.innerHTML = "30€ <img src='../assets/icons/barg.svg' alt='404' >";
+                    console.log()
+
+                    box.classList.add('d-flex');
+                    box.classList.remove('d-none');
+
+                    if (god.classList.contains("hover_tarif")) {
+
+                        sena1 = 30;
+                        document.getElementById('day_end').innerHTML = "Годовая - " + sena1 + "€ <div class='barglani'><img src='../assets/icons/barg.svg' alt='404' ><p class='ecosena'>Эко цена</p></div>";
+                    } else if (dnev.classList.contains("hover_tarif")) {
+                        sena1 = 20;
+                        document.getElementById('day_end').innerHTML = "30 -дневная - " + sena1 + "€ <div class='barglani'><img src='../assets/icons/barg.svg' alt='404' ><p class='ecosena'>Эко цена</p></div>";
+                    } else if (dnevTwo.classList.contains("hover_tarif")) {
+                        sena1 = 10;
+                        document.getElementById('day_end').innerHTML = "10 -дневная - " + sena1 + "€ <div class='barglani'><img src='../assets/icons/barg.svg' alt='404' ><p class='ecosena'>Эко цена</p></div>";
+                    }
+
+                    calc();
+                } else {
+                    d15.innerHTML = "15€";
+                    d25.innerHTML = "25€";
+                    d45.innerHTML = "45€";
+                    sss.innerHTML = "Обычное топливо";
+                    box.classList.remove('d-flex');
+                    box.classList.add('d-none');
+                    if (day1 == 1) {
+                        sena1 = 45;
+                        document.getElementById('day_end').innerHTML = "Годовая - " + sena1 + "€";
+                    } else if (day1 == 30) {
+                        sena1 = 25;
+                        document.getElementById('day_end').innerHTML = day1 + "-дневная - " + sena1 + "€";
+                    } else if (day1 == 10) {
+                        sena1 = 15;
+                        document.getElementById('day_end').innerHTML = day1 + "-дневная - " + sena1 + "€";
+                    }
+                    calc();
+                }
+            })
+
+
+
+
+
+            if (day1 == 1) {
+
+
+                document.getElementById('day_end').innerHTML = "Годовая - " + sena1 + "€";
+                document.getElementById('god').classList.add('hover_tarif');
+
+
+                let yill = das.setFullYear(parseFloat(das.getFullYear()) + parseFloat(day1));
+                let yillRes = new Date(yill);
+
+                datas.innerHTML = kun + "." + oy + "." + yil + ", 00:00:00 - " + kun - 1 + "." + oy + "." + yillRes.getFullYear() + ", 23:59:59";
+
+            } else if (day1 == 30) {
+
+                document.getElementById('day_end').innerHTML = day1 + "-дневная - " + sena1 + "€";
+                document.getElementById('dnev').classList.add('hover_tarif');
+                let yill = das.setDate(parseFloat(das.getDate()) + parseFloat(day1));
+                let yillRes = new Date(yill);
+                let dayKun = yillRes.getDate() - 1;
+                let dayOy = parseFloat(yillRes.getMonth() + parseFloat(1));
+                if (dayKun < 10) {
+                    dayKun = "0" + dayKun;
+                }
+                if (dayOy < 10) {
+                    dayOy = "0" + dayOy;
+                }
+                datas.innerHTML = kun + "." + oy + "." + yil + ", 00:00:00 - " + dayKun + "." + dayOy + "." + yillRes.getFullYear() + ", 23:59:59";
+            } else if (day1 == 10) {
+
+                document.getElementById('day_end').innerHTML = day1 + "-дневная - " + sena1 + "€";
+                document.getElementById('dnevTwo').classList.add('hover_tarif');
+                let yill = das.setDate(parseFloat(das.getDate()) + parseFloat(day1));
+                let yillRes = new Date(yill);
+
+                let dayKun = yillRes.getDate() - 1;
+                let dayOy = parseFloat(yillRes.getMonth() + parseFloat(1));
+                if (dayKun < 10) {
+                    dayKun = "0" + dayKun;
+                }
+                if (dayOy < 10) {
+                    dayOy = "0" + dayOy;
+                }
+                datas.innerHTML = kun + "." + oy + "." + yil + ", 00:00:00 - " + dayKun + "." + dayOy + "." + yillRes.getFullYear() + ", 23:59:59";
+            }
+            let d = new Date();
+            let days = d.setDate(d.getDate() + 25);
+            let dayRes = new Date(days);
+
+            if (!chto.value) {
+                datas.innerHTML = "Выберите дату";
+            }
+
+
+            $('#god').on('click', function() {
+                let sana = chto.value;
+                let splits = sana.split('-');
+                yil = splits[0];
+                oy = splits[1];
+                kun = splits[2];
+
+                let obshiyS = yil + "." + oy + "." + kun;
+                let ss = new Date(obshiyS);
+                let yill = ss.setFullYear(parseFloat(ss.getFullYear()) + parseFloat(1));
+                let yillRes = new Date(yill);
+                let yilss = yillRes.getFullYear();
+                let yilres = parseFloat(yills) + parseFloat(1);
+                let kuns = kun - 1;
+                if (chto.value) {
+                    datas.innerHTML = kun + "." + oy + "." + yil + ", 00:00:00 - " + kuns + "." + oy + "." + yilss + ", 23:59:59";
+
+                } else {
+                    datas.innerHTML = "Выберите дату";
+                }
+            })
+            $('#dnev').on('click', function() {
+                let sana = chto.value;
+                let splits = sana.split('-');
+                yil = splits[0];
+                oy = splits[1];
+                kun = splits[2];
+                let obshiyS = yil + "." + oy + "." + kun;
+                let ss = new Date(obshiyS);
+                let yill = ss.setDate(parseFloat(ss.getDate()) + parseFloat(30));
+                let yillRes = new Date(yill);
+                console.log(yillRes);
+                let dayKun = yillRes.getDate() - 1;
+                let dayOy = parseFloat(yillRes.getMonth() + parseFloat(1));
+                if (dayKun < 10) {
+                    dayKun = '0' + dayKun;
+                }
+                if (dayOy < 10) {
+                    dayOy = '0' + dayOy;
+                }
+                if (chto.value) {
+                    datas.innerHTML = kun + "." + oy + "." + yil + ", 00:00:00 - " + dayKun + "." + dayOy + "." + yillRes.getFullYear() + ", 23:59:59";
+
+                } else {
+                    datas.innerHTML = "Выберите дату";
+                }
+            })
+            $('#dnevTwo').on('click', function() {
+                let sana = chto.value;
+                let splits = sana.split('-');
+                yil = splits[0];
+                oy = splits[1];
+                kun = splits[2];
+                let obshiyS = yil + "." + oy + "." + kun;
+                let ss = new Date(obshiyS);
+                let yill = ss.setDate(parseFloat(ss.getDate()) + parseFloat(10));
+                let yillRes = new Date(yill);
+
+                let dayKun = yillRes.getDate() - 1;
+                let dayOy = parseFloat(yillRes.getMonth() + parseFloat(1));
+                if (dayKun < 10) {
+                    dayKun = '0' + dayKun;
+                }
+                if (dayOy < 10) {
+                    dayOy = '0' + dayOy;
+                }
+
+                if (chto.value) {
+                    datas.innerHTML = kun + "." + oy + "." + yil + ", 00:00:00 - " + dayKun + "." + dayOy + "." + yillRes.getFullYear() + ", 23:59:59";
+
+                } else {
+                    datas.innerHTML = "Выберите дату";
+                }
+            })
+
+
+
+        }
+
+
+
+
+        // $(function() {
+        //     $.getJSON('https://www.cnb.cz/cs/financni_trhy/devizovy_trh/kurzy_devizoveho_trhu/denni_kurz.txt?date={0:08\.11\.2021}', function(data) {
+        //         for (var i = 0; i < data.length; i++) {
+        //             var obj = data[i];
+        //             var el = document.getElementById(obj.Cur_Abbreviation);
+        //             if (el) {
+        //                 el.innerHTML = el.innerHTML.replace('00,00', obj.Cur_OfficialRate);
+        //             }
+        //         }
+        //         console.log(data)
+        //     }).fail(function(d, textStatus, error) {
+        //         console.error("Request failed, status: " + textStatus + ", error: " + error)
+        //     });
+
+        // });
+    </script>
+
+
+</body>
+
+</html>
